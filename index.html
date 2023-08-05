@@ -10,18 +10,22 @@
 </head>
 
 <body>
-
     <!-- formulario para envio dos dados -->
-    <form>
-        <div class="divinformacoes">
+    <div class="divinformacoes">
+        <h1>Calculadora de IMC</h1>
+        <form>
+        
             <!-- entrada de dados do usuário solicitando peso e altura -->
-            <input type="text" id="peso" placeholder="Digite seu peso:">
+            <label for="peso">Digite seu peso:</label>
+            <input type="text" id="peso" placeholder="Exemplo: 70">
             <br>
-            <input type="text" id="altura" placeholder="Digite sua altura">
+            <label for="altura">Digite sua altura:</label>
+            <input type="text" id="altura" placeholder="Exemplo: 1.70">
             <br>
             <button id="botao">Calcular</button>
-        </div>
-    </form>
+        
+        </form>
+    </div>
     <div class="divresultado">
         <h2>Seu IMC é: <span id="imc"></span></h2>
         <p>Sua categoria é: <span id="categoriaimc"></span></p>

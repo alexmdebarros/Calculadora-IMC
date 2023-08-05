@@ -27,6 +27,7 @@ document.querySelector('#botao').addEventListener('click', function () {
     document.getElementById('categoriaimc').innerHTML = categoria;
 
     //exibe a div de resultado
+    document.querySelector('.divresultado').style.display = 'block';
     document.querySelector('.categoriaimc').style.display = 'block';
 
 });
