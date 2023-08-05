@@ -1,0 +1,60 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divinformacoes {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.divinformacoes input[type="text"], .divinformacoes button {
+    transition: all 0.2 ease-in-out;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.divinformacoes input[type="text"]:focus, .divinformacoes button:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px #777;
+}
+
+#botao {
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #2c5dda;
+}
+
+.divresultado {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    display: block;
+
+}
+
+.divresultado h2, .divresultado p {
+    margin: 10px 0;
+}
+
+@media(max-width: 600px) {
+    .divinformacoes, .divresultado{
+        width: 90%;
+    }
+}
