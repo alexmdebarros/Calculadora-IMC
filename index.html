@@ -13,24 +13,21 @@
     <!-- formulario para envio dos dados -->
     <div class="divinformacoes">
         <h1>Calculadora de IMC</h1>
-        <form>
-        
+        <form>        
             <!-- entrada de dados do usuário solicitando peso e altura -->
             <label for="peso">Digite seu peso:</label>
-            <input type="text" id="peso" placeholder="Exemplo: 70">
+            <input type="text" id="peso" placeholder="Exemplo: 70" required>
             <br>
             <label for="altura">Digite sua altura:</label>
-            <input type="text" id="altura" placeholder="Exemplo: 1.70">
+            <input type="text" id="altura" placeholder="Exemplo: 1.70" required>
             <br>
-            <button id="botao">Calcular</button>
-        
+            <button id="botao">Calcular</button>        
         </form>
     </div>
     <div class="divresultado">
         <h2>Seu IMC é: <span id="imc"></span></h2>
-        <p>Sua categoria é: <span id="categoriaimc"></span></p>
-    </div>
-    
+        <p>Resultado: <span id="categoriaimc"></span></p>
+    </div>    
 <script src="./script.js"></script>
 </body>
 

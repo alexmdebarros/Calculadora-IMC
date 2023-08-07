@@ -12,17 +12,17 @@ document.querySelector('#botao').addEventListener('click', function () {
     //verifica a categoria do usuario e escreve na tela
     var categoria;
     if (imc < 18.5) {
-        categoria = 'abaixo do peso';
+        categoria = 'Você está abaixo do peso';
     } else if (imc >= 18.5 && imc < 25) {
-        categoria = 'faixa de peso normal';
+        categoria = 'Você está na faixa de peso normal';
     } else if (imc >= 25 && imc < 30) {
-        categoria = 'com sobrepeso';
+        categoria = 'Você está com sobrepeso';
     } else if (imc >= 30 && imc < 35) {
-        categoria = 'com obesidade grau I';
+        categoria = 'Você está com obesidade grau I';
     } else if (imc >= 35 && imc < 40) {
-        categoria = 'com obesidade grau II';
+        categoria = 'Você está com obesidade grau II';
     } else  {
-        categoria = 'com obesidade grau III ou mórbida';
+        categoria = 'Você está com obesidade grau III ou mórbida';
     }
     document.getElementById('categoriaimc').innerHTML = categoria;
 
